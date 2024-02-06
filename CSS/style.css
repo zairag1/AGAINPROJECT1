@@ -1,0 +1,169 @@
+*{font-family: 'proxima-nova', sans-serif;}
+
+@font-face{
+    src: url("../FONTS/Billabong/Billabong.ttf");
+    font-family: billabong;
+}
+
+body{
+    background-color: ghostwhite;
+    background-image: url("../MEDIA/IMAGES/spiderman .png");
+    background-repeat: no-repeat;
+    background-size: 1500px 500px;
+    margin-top: -35px;
+}
+
+.title{
+    text-align: center;
+    display: block;
+    background-color: #3F729B;
+    font-family: billabong;
+    font-size: 45px;
+    color: white;
+    padding-top: 7px;
+}
+
+.profilepic{
+    width: 150px;
+    border: 5px solid white;
+    border-radius: 6px;
+    margin-top: 325px;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bio{
+    margin-left: 185px;
+}
+
+button{
+    display: inline-block;
+    background-color: #3F729B;
+    padding-left: 25px;
+    color: white;
+    padding: 7px;
+    font-size: 15px;
+    margin-left: 35px;
+    border-radius: 6px;
+    width: 110px;
+}
+
+ audio::-webkit-media-controls-panel{
+    background-color: #548cbc;
+}
+
+audio{
+    margin-top: 15px;
+}
+
+.numbers{
+    border: 2px solid;
+    text-align: center;
+    padding: 6px;
+    border-radius: 6px;
+    margin-left: auto;
+    margin-top: -20px;
+}
+
+.numbers th, td{
+    width: 70px;
+}
+
+.menu ul{
+    list-style-type: none;
+    background-color: #3F729B;
+    overflow: hidden;
+    font-family: 'proxima-nova', sans-serif;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 6px;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    background-image: linear-gradient(to bottom right,#515BD4, #8134AF, #DD2A7B, #FEDA77, #F58529);
+}
+
+
+.boo{
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}
+
+.building{
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}
+
+.cat{
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}
+
+.collage{
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}
+
+.heat{
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}
+
+.hurricane{
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}
+
+.sushi{
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}
+
+.trees{
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}
+
+.jack{
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}
+
+.shoes{
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}
+
+img{
+    border: 5px solid white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

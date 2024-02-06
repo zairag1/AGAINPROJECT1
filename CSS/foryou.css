@@ -1,0 +1,108 @@
+*{font-family: 'proxima-nova', sans-serif;}
+
+@font-face{
+    src: url("../FONTS/Billabong/Billabong.ttf");
+    font-family: billabong;
+}
+
+body{
+    background-color: #3F729B;
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+    display: block;
+    font-family: billabong;
+    font-size: 70px;
+    color: white;
+    padding-top: 7px;
+}
+
+.menu ul{
+    list-style-type: none;
+    background-color: white;
+    overflow: hidden;
+    font-family: 'proxima-nova', sans-serif;
+    padding: 0;
+    width: 165px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 6px;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu li a{
+    display: block;
+    color: #3F729B;
+    text-align: center;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    background-image: linear-gradient(to bottom right,#515BD4, #8134AF, #DD2A7B, #FEDA77, #F58529);
+}
+
+.you{
+   color: white;
+}
+
+.inspire{
+    color: white;
+}
+
+.explore{
+    color: white;
+}
+
+img{
+    border: 5px solid white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.day{
+    margin-bottom: 10px;
+}
+
+.life{
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}
+
+.picture{
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}
+
+.sunflower{
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}
+
+.zoom{
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}
+
+.museum{
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}
+
+.drawing{
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}

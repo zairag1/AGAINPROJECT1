@@ -1,0 +1,77 @@
+*{font-family: 'proxima-nova', sans-serif;}
+
+@font-face{
+    src: url("../FONTS/Billabong/Billabong.ttf");
+    font-family: billabong;
+}
+
+body{
+    text-align: center;
+}
+
+.brand{
+    font-family: billabong;
+    font-size: 70px;
+    color: ghostwhite;
+}
+
+.menu ul{
+    list-style-type: none;
+    background-color: white;
+    overflow: hidden;
+    font-family: 'proxima-nova', sans-serif;
+    padding: 0;
+    width: 79px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 6px;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu li a{
+    display: inline-block;
+    color: #3F729B;
+    text-align: center;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    background-image: linear-gradient(to bottom right,#515BD4, #8134AF, #DD2A7B, #FEDA77, #F58529);
+}
+
+body{
+    background-color: #3F729B;
+}
+
+input{
+    width: 150px;
+    height: 30px;
+    margin: 3px;
+}
+
+.creative{
+    color: white;
+    font-size: 16px;
+}
+
+.unique{
+    color: white;
+    font-size: 17px;
+}
+
+.you{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.goal{
+    color: white;
+    font-style: italic;
+    margin-bottom: 50px;
+    font-size: 17px;
+}
